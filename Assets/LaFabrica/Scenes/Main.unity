@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: a84eefbbeb2520d429b34ca8ea6b235f, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -1217,7 +1217,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7623195778715645435, guid: 811bf22db94faad418fb6fdfffe14569, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.4937053
+      value: -1.56
       objectReference: {fileID: 0}
     - target: {fileID: 7623195778715645435, guid: 811bf22db94faad418fb6fdfffe14569, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1468,7 +1468,7 @@ Transform:
   m_GameObject: {fileID: 853956050}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.00000004470348, z: -0, w: 1}
-  m_LocalPosition: {x: 3.4144576, y: 10.612298, z: 0.45317316}
+  m_LocalPosition: {x: 3.4144576, y: 10.612298, z: 0.08}
   m_LocalScale: {x: 8.74335, y: 5.7543955, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1558,7 +1558,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1024725969411930292, guid: 251977d85f345b94c805b990d722732f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.545401
+      value: -7.55
       objectReference: {fileID: 0}
     - target: {fileID: 1024725969411930292, guid: 251977d85f345b94c805b990d722732f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1566,7 +1566,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1024725969411930292, guid: 251977d85f345b94c805b990d722732f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10.853705
+      value: -5.52
       objectReference: {fileID: 0}
     - target: {fileID: 1024725969411930292, guid: 251977d85f345b94c805b990d722732f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1711,7 +1711,7 @@ Transform:
   m_GameObject: {fileID: 1060546598}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0.000000104308114}
-  m_LocalPosition: {x: -5.315542, y: 10.612298, z: 0.4831729}
+  m_LocalPosition: {x: -5.315542, y: 10.612298, z: 0.10999966}
   m_LocalScale: {x: 8.74335, y: 5.7543955, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2425,7 +2425,7 @@ MonoBehaviour:
     probabilidad: 70
   - prefab: {fileID: 8005834718754371552, guid: 4f215d6b3e24dde4892abb65e35ea427, type: 3}
     probabilidad: 30
-  cantidadASpawnear: 10
+  cantidadASpawnear: 100
   puntoDeSpawneo: {fileID: 2004041688}
   intervaloSpawn: 3
 --- !u!4 &2004041688

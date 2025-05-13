@@ -20,13 +20,7 @@ public class BotellaManager : MonoBehaviour
             textoPuntaje.text = "Puntaje: " + puntaje;
     }
 
-    // Método para guardar el puntaje final en GameData (opcional)
-    public void GuardarPuntajeFinal()
-    {
-        GameData.puntajeFinal = puntaje;
-    }
-
-    // Método opcional para reiniciar el puntaje
+    //reiniciar el puntaje
     public void ReiniciarPuntaje()
     {
         puntaje = 0;

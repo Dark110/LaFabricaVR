@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement; // <-- Agrega esto
 
 public class TemporizadorPastel : MonoBehaviour
 {
@@ -27,7 +28,8 @@ public class TemporizadorPastel : MonoBehaviour
         {
             timerActivo = false;
             Debug.Log("¡Tiempo agotado!");
-            // Aquí puedes agregar lógica para finalizar el juego si lo deseas
+            // Reinicia la escena actual
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
 

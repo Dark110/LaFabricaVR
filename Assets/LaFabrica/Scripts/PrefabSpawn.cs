@@ -27,10 +27,6 @@ public class PrefabSpawner : MonoBehaviour
         {
             StartCoroutine(SpawnearPrefabsConDelay());
         }
-        else
-        {
-            Debug.LogError("Las probabilidades no suman 100%. Corrige eso en el inspector.");
-        }
     }
 
     bool ValidarProbabilidades()

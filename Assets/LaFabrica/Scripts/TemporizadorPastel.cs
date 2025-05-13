@@ -1,15 +1,12 @@
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 public class TemporizadorPastel : MonoBehaviour
 {
     public Image imagenPastel;
-    public float tiempoMaximo = 40f;
+    public float tiempoMaximo = 45f;
     private float tiempoActual;
-
     public bool timerActivo = true;
-    public string nombreEscenaMenu = "Menu";
 
     void Start()
     {
@@ -30,7 +27,7 @@ public class TemporizadorPastel : MonoBehaviour
         {
             timerActivo = false;
             Debug.Log("¡Tiempo agotado!");
-            RegresarAlMenu();
+            // Aquí puedes agregar lógica para finalizar el juego si lo deseas
         }
     }
 
@@ -44,15 +41,5 @@ public class TemporizadorPastel : MonoBehaviour
     {
         tiempoActual -= segundos;
         tiempoActual = Mathf.Max(0, tiempoActual);
-    }
-
-    private void RegresarAlMenu()
-    {
-     // Guardar puntaje
-        Time.timeScale = 1f;
-        timerActivo = false;
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
-        SceneManager.LoadScene(nombreEscenaMenu);
     }
 }

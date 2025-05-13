@@ -111,7 +111,7 @@ CapsuleCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5000001
-  m_Height: 2
+  m_Height: 1
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
 --- !u!114 &8612858052152032558
@@ -197,7 +197,7 @@ MonoBehaviour:
   heldNoFriction: 1
   ignoreWeight: 0
   allowHeldSwapping: 1
-  throwPower: 1
+  throwPower: 10
   jointBreakForce: 3500
   showAdvancedSettings: 1
   makeChildrenGrabbable: 1

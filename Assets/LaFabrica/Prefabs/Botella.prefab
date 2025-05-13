@@ -104,7 +104,7 @@ CapsuleCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -128,6 +128,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidad: 2
   moverALaDerecha: 1
+  rb: {fileID: 0}
+  mover: 1
 --- !u!54 &8155782094732796963
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -213,10 +215,34 @@ MonoBehaviour:
   showEvents: 1
   onGrab:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8612858052152032558}
+        m_TargetAssemblyTypeName: MoverEnX, Assembly-CSharp
+        m_MethodName: hacerDinamico
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onRelease:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8612858052152032558}
+        m_TargetAssemblyTypeName: MoverEnX, Assembly-CSharp
+        m_MethodName: soltar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onSqueeze:
     m_PersistentCalls:
       m_Calls: []

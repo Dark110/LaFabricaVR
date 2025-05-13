@@ -201,7 +201,7 @@ MonoBehaviour:
   jointBreakForce: 3500
   showAdvancedSettings: 1
   makeChildrenGrabbable: 1
-  grabPriorityWeight: 1
+  grabPriorityWeight: 2
   ignoreReleaseTime: 0.5
   minHeldDrag: 1.5
   minHeldAngleDrag: 3

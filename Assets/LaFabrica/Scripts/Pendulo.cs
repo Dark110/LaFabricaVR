@@ -15,7 +15,6 @@ public class Pendulo : MonoBehaviour
         // Convertir el ángulo inicial de grados a radianes
         angulo = anguloInicial * Mathf.Deg2Rad;
     }
-
     void Update()
     {
         // Calcular la aceleración angular
